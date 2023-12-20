@@ -1,0 +1,22 @@
+header{
+
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(../img/chopsticks.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 0 1% 0 1%;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+    margin-bottom: 2%;
+}
+
+header .link:hover{
+    border-bottom: solid 2px black;
+}
