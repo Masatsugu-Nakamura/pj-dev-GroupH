@@ -67,9 +67,11 @@ margin-bottom: 0px
 
 body{
     margin-bottom: 40px;
+    min-width: 1200px;
 }
 
 .font{
     font-family: 游明朝;
     font-weight: 500;
 }
+
