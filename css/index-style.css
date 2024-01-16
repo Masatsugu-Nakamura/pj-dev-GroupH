@@ -5,3 +5,6 @@ h1{
     line-height: 1.25;
 }
 
+.item{
+    display: flex;
+}
