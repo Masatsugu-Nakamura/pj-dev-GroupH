@@ -1,0 +1,119 @@
+.midashi{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.item{
+    display: flex;
+}
+
+.koumoku{
+    display: inline-block;
+}
+
+.writer{
+    border: 1px solid black;
+    width: 580px;
+    height: 329px;
+    margin: 50px;
+    position: relative;
+    display: block;
+}
+
+
+.background1{
+    position: absolute;
+    height: 327.5px;
+    width: 70px;
+    background-color: orange;
+    margin-left: 45px;
+}
+
+.background2{
+    position: absolute;
+    height: 329px;
+    width: 70px;
+    background-color: rgba(57,202,254,0.5);
+    margin-left: 45px;
+}
+.background3{
+    position: absolute;
+    height: 328px;
+    width: 70px;
+    background-color: #FF0;
+    margin-left: 45px;
+}
+.background4{
+    position: absolute;
+    height: 328px;
+    width: 70px;
+    background-color: #fff0f5;
+    margin-left: 45px;
+}
+
+.name1, .name2, .name3,.name4{
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: HGS創英角ｺﾞｼｯｸUB;
+    margin-top: 10px;
+    font-size: 28px;
+    text-align: center;
+}
+
+.name1 span, .page1 span{
+        background: linear-gradient(transparent 40%, orange);
+
+}
+
+.name2 span, .page2 span{
+    background: linear-gradient(transparent 40%, rgba(57,202,254,0.8));
+
+}
+.name3 span, .page3 span{
+    background: linear-gradient(transparent 40%, #FF0);
+
+}
+.name4 span, .page4 span{
+    background: linear-gradient(transparent 40%, #fff0f5);
+
+}
+
+.img-frame{
+    height: 230px;
+    width: 300px;
+   margin-left: 180px;
+   margin-top: 20px;
+}
+
+
+.writer img{
+    width: 310px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.page1, .page2, .page3, .page4 {
+    text-align: center;
+    font-family: HGS創英角ｺﾞｼｯｸUB;
+    font-size: 22px;
+   
+}
+
+.a-frame{
+    text-align: right;
+}
+
+.writer a{
+    text-decoration: none;
+    color: black;
+}
+
+.writer a :hover{
+    color: red;
+}
+
+
+
+

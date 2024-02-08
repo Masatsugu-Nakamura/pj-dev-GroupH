@@ -1,0 +1,245 @@
+
+
+.moji {
+    position: relative;
+    text-align: center;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 40px;
+    margin-bottom: 70px;
+  }
+
+  .moji2 {
+    position: relative;
+    text-align: center;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 70px;
+  }
+
+
+  
+  .midashi {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 20px;
+    font-weight: bolder;
+    font-size: 50px;
+    z-index: 2; /* .midashi を手前に表示するために z-index を設定 */
+    width: 1000px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .midashi2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 20px;
+    font-weight: bolder;
+    font-size: 40px;
+    z-index: 2; /* .midashi を手前に表示するために z-index を設定 */
+    width: 600px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+
+  
+  .background {
+   
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 800px;
+    transform: translate(-50%, -50%);
+    background: radial-gradient(ellipse at center, rgba(96,171,248,1) 0%,rgba(155,201,247,1) 28%,rgba(155,201,247,1) 18%,);
+    padding: 50px;
+    display: inline-block;
+    z-index: 1; /* .background を奥に表示するために z-index を設定 */
+   margin-top: 20px;
+  
+  }
+
+body{
+    margin-bottom: 100px;
+}
+  
+  
+
+.item{
+    display: flex;
+    margin-top: 30px;
+}
+
+.item2{
+    display: flex;
+    margin-top: 30px;
+    padding-top: 10px;
+   
+}
+
+
+
+
+.img{
+    height: 340px;
+    width: 310px;
+   margin-left: 90px;
+   margin-right: 130px;
+   margin-top: 10px;
+  
+}
+
+.img size{
+    width: 100%;
+    height: 100%;
+    border: 6px solid #0055ff6f;
+}
+
+.shokai{
+    border: 5px solid #0055ff6f;
+    width: 609px;
+    height: 260px;
+}
+
+.introduction{
+    text-align: left;
+    padding: 20px;
+    width: 580px;
+    height: 200px;
+   width: 600px;
+    background: radial-gradient( rgba(96,171,248,1) 0%,rgba(155,201,247,1) 20%,rgba(155,201,247,1) 18%,rgb(255, 255, 255) 70%);
+}
+
+body{
+    text-align: center;
+}
+
+
+.name{
+    width: 600px;
+    height: 50px;
+    background-color: #306add92;
+}
+
+
+
+
+
+
+
+.IMAGE{
+    width: 250px;
+    height: 180px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.IMAGE img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+
+.center{
+    display: block;
+    background-color: rgba(141, 173, 237, 0.7);
+    width: 350px;
+    margin-left: 60px;
+    border:  5px solid rgb(0, 87, 255, 0.4);
+    margin: 0 auto;
+   margin-bottom: 60px;
+}
+
+.shokaibunn{
+    width: 280px;
+    height: 250px;
+    background-color: white;
+   border-radius: 20px;
+   margin: 0 auto;
+   margin-bottom: 20px;
+  
+
+}
+
+.koumoku{
+    padding: 0.2rem;
+    margin-bottom: 0.2rem;
+    background: linear-gradient(transparent 60%, #fdfeff 20%);
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 auto;
+    width: 180px;
+  text-align: center;
+  padding-top: 25px;
+
+  
+}
+
+.koumoku2{
+    padding: 0.2rem;
+    margin-bottom: 0.2rem;
+    background: linear-gradient(transparent 60%, #fdfeff 20%);
+    font-weight: bold;
+    font-size: 25px;
+    margin: 0 auto;
+    width: 230px;
+  text-align: center;
+  padding-top: 20px;
+  letter-spacing: 1.6px;
+  
+}
+
+.jiko{
+    padding-top: 7px;
+     font-size: 24px;
+     text-align: left;
+     margin-left: 30px;
+    
+ }
+
+ .bun{
+    font-weight: 550;
+    font-size: 18px;
+    line-height: 33px;
+ }
+
+ .bun2{
+    font-weight: 550;
+    padding: 20px;
+    text-align: left;
+    line-height: 27px;
+ }
+ .kyotyo{
+    color: red;
+    font-size: 20px;
+    margin-right: 6px;
+ }
+
+ .kyotyo2{
+    color: red;
+    font-size: 20px;
+  
+ }
+
+ 
+ body{
+    background-image: url(../img/開運橋.jpg);
+    background-color:rgba(255,255,255,0.6);
+    background-blend-mode:lighten;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+ 
+
+ }
+ 
